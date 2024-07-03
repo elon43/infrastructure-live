@@ -1,6 +1,6 @@
 terraform {
-  source = "git@github.com:elon43/infrastructure-modules.git//kubernetes-addons?ref=kubernetes-addons-v0.0.3"
-#  source = "/home/ubuntu/AntonTerragruntTutorial/devel/infrastructure-modules/kubernetes-addons"
+#  source = "git@github.com:elon43/infrastructure-modules.git//kubernetes-addons?ref=kubernetes-addons-v0.0.2"
+  source = "/home/ubuntu/AntonTerragruntTutorial/devel/infrastructure-modules/kubernetes-addons"
 }
 
 include "root" {
