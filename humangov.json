@@ -1,0 +1,34 @@
+{
+  "state_infrastructure_outputs": {
+    "sensitive": false,
+    "type": [
+      "object",
+      {
+        "california": [
+          "object",
+          {
+            "dynamodb_table": "string",
+            "s3_bucket": "string"
+          }
+        ],
+        "wyoming": [
+          "object",
+          {
+            "dynamodb_table": "string",
+            "s3_bucket": "string"
+          }
+        ]
+      }
+    ],
+    "value": {
+      "california": {
+        "dynamodb_table": "humangov-california-dynamodb",
+        "s3_bucket": "humangov-california-s3-lt75"
+      },
+      "wyoming": {
+        "dynamodb_table": "humangov-wyoming-dynamodb",
+        "s3_bucket": "humangov-wyoming-s3-6y1t"
+      }
+    }
+  }
+}

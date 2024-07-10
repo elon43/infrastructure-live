@@ -1,5 +1,5 @@
 terraform {
-  source = "git@github.com:elon43/infrastructure-modules.git//eks?ref=eks-v0.0.2"
+  source = "git@github.com:elon43/infrastructure-modules.git//eks?ref=eks-v0.0.3"
 }
 
 include "root" {
@@ -21,7 +21,7 @@ inputs = {
   node_groups = {
     general = {
       capacity_type = "SPOT"
-      instance_types = ["t3a.xlarge"]
+      instance_types = ["t3a.xlarge","t3.xlarge","t2.large","m4.xlarge","m5.xlarge"]
       scaling_config = {
         desired_size = 1
         max_size = 10

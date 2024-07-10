@@ -1,0 +1,34 @@
+{
+  "state_infrastructure_outputs": {
+    "sensitive": false,
+    "type": [
+      "object",
+      {
+        "ca": [
+          "object",
+          {
+            "dynamodb_table": "string",
+            "s3_bucket": "string"
+          }
+        ],
+        "wy": [
+          "object",
+          {
+            "dynamodb_table": "string",
+            "s3_bucket": "string"
+          }
+        ]
+      }
+    ],
+    "value": {
+      "ca": {
+        "dynamodb_table": "humangov-ca-dynamodb",
+        "s3_bucket": "humangov-ca-s3-ik26"
+      },
+      "wy": {
+        "dynamodb_table": "humangov-wy-dynamodb",
+        "s3_bucket": "humangov-wy-s3-dcpl"
+      }
+    }
+  }
+}
